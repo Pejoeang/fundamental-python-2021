@@ -27,3 +27,4 @@ print(f"data driver disekitar terdekat: {server_gojek['driver'][0]}")
 print(f"data driver disekitar no#3: {server_gojek['driver'][2]}")
 print(f"data driver disekitar no#4: {server_gojek['driver'][3]}")
 print(f"data jarak terdekat: {server_gojek['driver'][0]['jarak']} meter")
+
