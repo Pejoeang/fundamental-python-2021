@@ -18,8 +18,12 @@ print('\nDATA INI DIKIRIMKAN OLEH SERVER GOJEK, UNTUK MENGINFOKAN DRIVER DISEKIT
 
 server_gojek={
     'tanggal':'09-08-2021',
-    'driver':['eko','dwi','tri','catur']
+    'driver':[{'nama':'eko','jarak':'10'},{'nama':'dwi','jarak':'20'},{'nama':'tri','jarak':'30'},{'nama':'catur','jarak':'100'}]
 
 }
+print(f"data driver disekitar: {server_gojek['driver']}")
 
-print(f"data driver disekitar: {server_gojek['driver'][0]}")
+print(f"data driver disekitar terdekat: {server_gojek['driver'][0]}")
+print(f"data driver disekitar no#3: {server_gojek['driver'][2]}")
+print(f"data driver disekitar no#4: {server_gojek['driver'][3]}")
+print(f"data jarak terdekat: {server_gojek['driver'][0]['jarak']} meter")
